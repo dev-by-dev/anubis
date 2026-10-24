@@ -512,6 +512,6 @@ fun SettingsScreen(
 
 private object SettingsScreenConstants {
     const val SHIZUKU_DOWNLOAD_URL = "https://shizuku.rikka.app/download/"
-    const val GITHUB_URL = "https://github.com/sogonov/anubis"
+    const val GITHUB_URL = "https://github.com/dev-by-dev/anubis"
     const val TELEGRAM_URL = "https://t.me/anubis_app"
 }

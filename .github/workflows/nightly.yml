@@ -56,7 +56,7 @@ jobs:
       run: |
         set -euo pipefail
         APK="app/build/outputs/apk/nightly/anubis-nightly-${GITHUB_SHA::7}.apk"
-        NOTES="Automated build of the latest main. Separate app (sgnv.anubis.app.nightly), updates itself from this release.
+        NOTES="Automated build of the latest main. Separate app (dev.bydev.anubis.nightly), updates itself from this release.
 
         Commit: ${GITHUB_SHA::7}
         Built on: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"

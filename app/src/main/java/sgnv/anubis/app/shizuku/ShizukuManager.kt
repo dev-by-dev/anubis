@@ -6,6 +6,7 @@ import android.content.ServiceConnection
 import android.content.pm.PackageManager
 import android.os.IBinder
 import android.os.Process
+import sgnv.anubis.app.BuildConfig
 import sgnv.anubis.app.IUserService
 import sgnv.anubis.app.util.AppLogger
 import kotlinx.coroutines.Dispatchers
@@ -117,8 +118,11 @@ class ShizukuManager(private val packageManager: PackageManager) {
     }
 
     private val serviceArgs = Shizuku.UserServiceArgs(
+        // BuildConfig.APPLICATION_ID, not a hardcoded package: the fork uses its own
+        // applicationId, and UserService binding breaks if the component package
+        // doesn't match the installed app.
         ComponentName(
-            "sgnv.anubis.app",
+            BuildConfig.APPLICATION_ID,
             UserService::class.java.name
         )
     )

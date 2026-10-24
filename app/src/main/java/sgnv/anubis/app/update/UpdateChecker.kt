@@ -25,9 +25,9 @@ import java.net.URL
  */
 object UpdateChecker {
 
-    private const val API_LATEST_URL = "https://api.github.com/repos/sogonov/anubis/releases/latest"
-    private const val API_LIST_URL = "https://api.github.com/repos/sogonov/anubis/releases?per_page=5"
-    private const val API_NIGHTLY_URL = "https://api.github.com/repos/sogonov/anubis/releases/tags/nightly"
+    private const val API_LATEST_URL = "https://api.github.com/repos/dev-by-dev/anubis/releases/latest"
+    private const val API_LIST_URL = "https://api.github.com/repos/dev-by-dev/anubis/releases?per_page=5"
+    private const val API_NIGHTLY_URL = "https://api.github.com/repos/dev-by-dev/anubis/releases/tags/nightly"
     private const val NIGHTLY_TAG = "nightly"
     private val NIGHTLY_APK_REGEX = Regex("""anubis-nightly-([0-9a-f]+)\.apk""", RegexOption.IGNORE_CASE)
     private const val PREFS = "settings"

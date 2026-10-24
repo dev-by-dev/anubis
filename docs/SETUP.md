@@ -10,7 +10,7 @@
 
 ### Шаг 1. Установите Anubis
 
-Скачайте APK из [последнего релиза на GitHub](https://github.com/sogonov/anubis/releases) и установите. Android спросит, можно ли ставить APK из этого источника — разрешите.
+Скачайте APK из [последнего релиза на GitHub](https://github.com/dev-by-dev/anubis/releases) и установите. Android спросит, можно ли ставить APK из этого источника — разрешите.
 
 Откройте Anubis. Если Shizuku ещё не установлен, Anubis сам подскажет ссылку на его скачивание.
 
@@ -56,7 +56,7 @@
 
 Скачайте и установите:
 - Shizuku: [shizuku.rikka.app](https://shizuku.rikka.app/download/) — там все варианты скачивания.
-- Anubis: [github.com/sogonov/anubis/releases](https://github.com/sogonov/anubis/releases).
+- Anubis: [github.com/dev-by-dev/anubis/releases](https://github.com/dev-by-dev/anubis/releases).
 
 ### Шаг 3. Установите ADB AppControl на компьютер
 
@@ -72,7 +72,7 @@
    ```
    Длинные случайные строки — это путь к Shizuku внутри Android, он уникальный у каждого устройства и меняется после обновлений. **Копируйте команду прямо из приложения Shizuku — не пытайтесь её угадать.**
 
-![как выглядит команла](https://raw.githubusercontent.com/sogonov/anubis/refs/heads/main/img/3.png "как выглядит команда") 
+![как выглядит команла](https://raw.githubusercontent.com/dev-by-dev/anubis/refs/heads/main/img/3.png "как выглядит команда") 
 
 4. В ADB AppControl откройте **Терминал (ADB Shell)** или аналогичный пункт меню и выполните скопированную команду.
 

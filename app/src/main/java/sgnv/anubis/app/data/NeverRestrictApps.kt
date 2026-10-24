@@ -16,8 +16,13 @@ package sgnv.anubis.app.data
 object NeverRestrictApps {
 
     val packageNames = setOf(
-        // Anubis itself - never allow self-freeze
+        // Anubis itself - never allow self-freeze. Includes the original upstream app
+        // (sgnv.anubis.app) and nightly variants of both, so neither build can freeze
+        // any other when installed side by side.
         "sgnv.anubis.app",
+        "sgnv.anubis.app.nightly",
+        "dev.bydev.anubis",
+        "dev.bydev.anubis.nightly",
 
         // Keyboards — without them text input stops working
         "com.google.android.inputmethod.latin",       // Gboard
