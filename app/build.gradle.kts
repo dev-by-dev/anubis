@@ -17,7 +17,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "sgnv.anubis.app"
+        applicationId = "dev.bydev.anubis"
         minSdk = 29
         targetSdk = 34
         versionCode = 11

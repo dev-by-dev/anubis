@@ -1,5 +1,7 @@
 # Anubis
 
+> **Fork:** this repository (`dev-by-dev/anubis`) continues the development of [sogonov/anubis](https://github.com/sogonov/anubis). Releases, update checks and the nightly channel point here; the app is published under its own applicationId (`dev.bydev.anubis`) and installs side by side with the original.
+
 Android app manager with VPN integration. Manages groups of apps by freezing/unfreezing them based on VPN connection state.
 
 Unlike sandbox-based solutions (Island, Insular, Shelter), which only isolate apps in a work profile where they **can still detect VPN** through the shared network stack, Anubis uses `pm disable-user` to **completely disable** apps at the system level. A disabled app cannot run any code, detect any network interfaces, or send any data.
